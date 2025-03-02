@@ -1,0 +1,32 @@
+node_modules
+.venv
+iTermocil.yml
+*.DS_Store
+apex-heat-app/playwright-report
+# api
+__pycache__/
+*.py[cod]
+
+#Docker
+postgres-data
+
+# consumption data test files
+scripts/consumption_data/*.txt
+scripts/consumption_data/*.csv
+
+# PDF generator env file for local dev testing
+pdf-generator/.env.local
+
+# PDF generator build dir
+pdf-generator/dist
+
+.idea
+.vscode
+SANDBOX/
+poetry.lock
+.vscode/settings.json
+sandbox.py
+.env
+data/
+*.lock
+*.pdf
